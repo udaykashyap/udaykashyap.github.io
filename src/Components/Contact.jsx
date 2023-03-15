@@ -8,6 +8,7 @@ import {
   Textarea,
   Button,
   Image,
+  useColorModeValue,
 } from "@chakra-ui/react";
 
 import ContactImg from "../assets/Image/contact.f495edec.png";
@@ -22,9 +23,9 @@ const Contact = () => {
         // marginTop={{ base: "20", md: "180px" }}
         padding={{ base: "1px", md: "1rem" }}
         border="0px solid red"
-        height="3xl"
+        height="2xl"
         // bg={useColorModeValue("white", "#0f1624")}
-        // color={useColorModeValue("gray.600", "gray.200")}
+        color={useColorModeValue("gray.600", "gray.200")}
       >
         <Box marginTop={{ base: "10%", md: "3%" }}>
           <Text fontSize={{ base: "30px", md: "30px" }} fontWeight="bold">
@@ -101,7 +102,7 @@ const Contact = () => {
                   name="message"
                   placeholder="Message"
                   size={["md", "lg", "lg"]}
-                  color={"white"}
+                  // color={"white"}
                   m={"auto"}
                   mt={"8%"}
                 />

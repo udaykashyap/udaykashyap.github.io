@@ -73,7 +73,9 @@ export default function Navbar() {
             fontWeight="700"
             fontSize="30px"
           >
-            U<span style={{ color: "red" }}>DAY</span>
+            <a href="home">
+              U<span style={{ color: "red" }}>DAY</span>
+            </a>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

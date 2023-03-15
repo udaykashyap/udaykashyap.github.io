@@ -12,13 +12,13 @@ export const Github = () => {
       justifyContent="center"
       alignItems={"center"}
       gap="30px"
-      marginTop={{ base: "20", md: "180px" }}
+      marginTop={{ base: "20", md: "0px" }}
       padding={{ base: "1px", md: "1rem" }}
       border="0px solid red"
     >
       <Box marginTop={{ base: "10%", md: "3%" }}>
         <Text fontSize={{ base: "30px", md: "30px" }} fontWeight="bold">
-          My <span style={{ color: "red" }}>Github</span>
+          My <span style={{ color: "red" }}>Github</span> Profile
         </Text>
       </Box>
 
@@ -53,8 +53,8 @@ export const Github = () => {
         width={{ base: "100%", md: "70%" }}
       >
         <Box padding={{ base: "0px", md: "30px" }} width="100%">
-          <Text style={{ base: "10px", md: "20px" }} textAlign="center">
-            My streak
+          <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
+            My <span style={{ color: "red" }}>Streak</span>
           </Text>
           <img
             id="github-streak-stats"
@@ -64,8 +64,8 @@ export const Github = () => {
           />
         </Box>
         <Box padding={{ base: "0px", md: "30px" }} width="100%">
-          <Text style={{ base: "10px", md: "20px" }} textAlign="center">
-            My Github Stats
+          <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
+            My <span style={{ color: "red" }}>Github</span> Stats
           </Text>
           <img
             id="github-stats-card"

@@ -4,13 +4,24 @@ import ProjectCards from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <Box padding={{ base: "1%", md: "1rem" }} paddingTop={{ base: "10%" }}>
+    <Box
+      padding={{ base: "1%", md: "1rem" }}
+      paddingTop={{ base: "10%" }}
+      marginTop={{ base: "20", md: "15px" }}
+      height={{ md: "3xl" }}
+      border={"0px solid red"}
+      id="projects"
+    >
       <Box marginTop={{ base: "10%", md: "3%" }}>
         <Text fontSize={{ base: "30px", md: "30px" }} fontWeight="bold">
           My<span style={{ color: "red" }}> Projects</span> Section{" "}
         </Text>
       </Box>
-      <Box display={{ md: "grid" }} gridTemplateColumns={"repeat(2,1fr)"}>
+      <Box
+        display={{ md: "grid" }}
+        gridTemplateColumns={"repeat(2,1fr)"}
+        gridTemplateRows={"repeat(2,1fr)"}
+      >
         {ProjectData.map((el) => (
           <ProjectCards heading={el.heading} image={el.image} desc={el.desc} />
         ))}

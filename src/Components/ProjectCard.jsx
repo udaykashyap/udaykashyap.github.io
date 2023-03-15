@@ -12,12 +12,12 @@ import {
 
 export default function ProjectCards({ heading, image, desc }) {
   return (
-    <Center id="projects" py={6}>
+    <Center py={6}>
       <Stack
         borderWidth="1px"
         borderRadius="lg"
         w={{ sm: "100%", md: "540px" }}
-        height={{ sm: "476px", md: "20rem" }}
+        height={{ sm: "476px", md: "15rem" }}
         direction={{ base: "column", md: "row" }}
         bg={useColorModeValue("white", "gray.900")}
         boxShadow={"2xl"}
