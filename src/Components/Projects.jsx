@@ -36,25 +36,25 @@ const ProjectData = [
   {
     image:
       "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    heading: " Lindsey James",
+    heading: "SUGAR Cosmetics",
     desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
   },
   {
     image:
       "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    heading: " Lindsey ",
+    heading: "Famous Footwear",
     desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
   },
   {
     image:
       "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    heading: "  James",
+    heading: "Hotstar",
     desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
   },
   {
     image:
       "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-    heading: " Lindsey James",
+    heading: "Bewakoof.com",
     desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
   },
 ];
