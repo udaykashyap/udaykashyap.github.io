@@ -135,6 +135,8 @@ export default function Navbar() {
         <Button display={{ base: "flex", md: "none" }}>
           {" "}
           <Link
+            className="nav-link resume"
+            id="resume-button-1"
             onClick={() =>
               window.open(
                 "https://drive.google.com/file/d/1OQIAxVifyP4S7JyfuknbB5UpDIB-t3yq/view?usp=share_link"

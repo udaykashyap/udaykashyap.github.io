@@ -33,6 +33,7 @@ const Home = () => {
             Hello there, I'm
           </Text>
           <Text
+            id="user-detail-name"
             color={"red"}
             fontSize={{ base: "3xl", sm: "4xl", md: "5xl" }}
             fontWeight={"bold"}
@@ -54,7 +55,7 @@ const Home = () => {
           </Text>
           <br />
         </Box>
-        <Box>
+        <Box className="home-img">
           <Image
             // borderRadius={"50%"}
 

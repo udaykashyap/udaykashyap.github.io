@@ -52,7 +52,11 @@ export const Github = () => {
         borderRadius="5px"
         width={{ base: "100%", md: "70%" }}
       >
-        <Box padding={{ base: "0px", md: "30px" }} width="100%">
+        <Box
+          id="github-streak-stats"
+          padding={{ base: "0px", md: "30px" }}
+          width="100%"
+        >
           <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
             My <span style={{ color: "red" }}>Streak</span>
           </Text>
@@ -63,7 +67,11 @@ export const Github = () => {
             alt="#"
           />
         </Box>
-        <Box padding={{ base: "0px", md: "30px" }} width="100%">
+        <Box
+          id="github-stats-card"
+          padding={{ base: "0px", md: "30px" }}
+          width="100%"
+        >
           <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
             My <span style={{ color: "red" }}>Github</span> Stats
           </Text>
@@ -77,6 +85,7 @@ export const Github = () => {
       </Box>
 
       <Box
+        id="github-top-langs"
         padding={{ base: "0px", md: "30px" }}
         boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
         borderRadius="5px"

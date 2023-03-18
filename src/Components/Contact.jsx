@@ -18,8 +18,8 @@ const Contact = () => {
     // display={["inline", "inline", "inline"]}
     <>
       <Box
-        id="contacts"
-        className="skills section"
+        id="contact"
+        className="nav-link contact"
         // marginTop={{ base: "20", md: "180px" }}
         padding={{ base: "1px", md: "1rem" }}
         border="0px solid red"
@@ -138,7 +138,12 @@ const Contact = () => {
           </Box>
         </Box>
       </Box>
-      <Text>Desgined & Build By Uday Kumar Kashyap, 2023</Text>
+      <Text
+        fontSize={{ base: "11px", md: "16px" }}
+        marginTop={{ base: "20px" }}
+      >
+        Desgined & Build By Uday Kumar Kashyap, 2023
+      </Text>
     </>
   );
 };

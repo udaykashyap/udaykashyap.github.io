@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Box
       id="about"
-      className="about section"
+      className="nav-link about"
       // marginTop={{ base: "20", md: "180px" }}
       padding={{ base: "10px", md: "5rem" }}
       border="0px solid green"
@@ -43,6 +43,7 @@ const About = () => {
           marginBottom={{ base: "20" }}
         >
           <Text
+            id="user-detail-intro"
             fontSize={"24px"}
             fontFamily={"cursive"}
             fontWeight="300"
@@ -89,7 +90,8 @@ const About = () => {
       >
         <Flex>
           <Button
-            id="resume-link-2"
+            // id="resume-link-2"
+            id="resume-button-2"
             bg={"#d50032"}
             // gap={4}
             px={10}
@@ -110,7 +112,8 @@ const About = () => {
             </Link>
           </Button>
         </Flex>
-        <Flex justifyItems={"center"} alignItems={"center"}>
+
+        <Flex justifyItems={"center"} alignItems={"center"} id="contact-github">
           <Button
             // bg={"transparent"}
             gap={4}

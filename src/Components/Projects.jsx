@@ -8,9 +8,10 @@ const Projects = () => {
       padding={{ base: "1%", md: "1rem" }}
       paddingTop={{ base: "10%" }}
       marginTop={{ base: "20", md: "15px" }}
-      height={{ md: "3xl" }}
+      // height={{ md: "3xl" }}
       border={"0px solid red"}
       id="projects"
+      className="nav-link projects"
     >
       <Box marginTop={{ base: "10%", md: "3%" }}>
         <Text fontSize={{ base: "30px", md: "30px" }} fontWeight="bold">
@@ -23,7 +24,14 @@ const Projects = () => {
         gridTemplateRows={"repeat(2,1fr)"}
       >
         {ProjectData.map((el) => (
-          <ProjectCards heading={el.heading} image={el.image} desc={el.desc} />
+          <ProjectCards
+            heading={el.heading}
+            image={el.image}
+            desc={el.desc}
+            github={el.github}
+            netlify={el.netlify}
+            techs={el.techs}
+          />
         ))}
       </Box>
     </Box>
@@ -35,26 +43,39 @@ export default Projects;
 const ProjectData = [
   {
     image:
-      "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Sugar%20Cosmatic.png?raw=true",
     heading: "SUGAR Cosmetics",
-    desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
+    desc: "This is a E-commerce website which helps you to buy most trending cosmetics porducts.",
+    techs: "HTML | CSS | JavaScrip",
+    github: "https://github.com/udaykashyap/Blush-Beauty-app",
+    netlify: "https://blushbeauty.netlify.app/",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Famous%20Footware.png?raw=true",
     heading: "Famous Footwear",
-    desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
+    desc: "This is a E-commerce website which helps you to buy most trending cosmetics porducts.",
+    techs: "REACT | HTML | CSS | JavaScrip",
+    github:
+      "https://github.com/udaykashyap/punchy-crayon-507/tree/main/comfort-footwear",
+    netlify: "https://comfortfootwear.netlify.app/",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Hotstar.png?raw=true",
     heading: "Hotstar",
-    desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
+    desc: "This is Hotstar Clone which helps you to search your desired movie",
+    techs: "HTML | CSS | JavaScrip",
+    github: "https://github.com/udaykashyap/hotstarClone",
+    netlify: "https://clonehotstar.netlify.app",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Bewakoof.png?raw=true",
     heading: "Bewakoof.com",
-    desc: "Actress, musician, songwriter and artist. PM for work inquires or me in your posts",
+    desc: "This is E-commerce website where you can buy clothes online",
+    techs: "HTML | CSS | JavaScrip",
+    github: "https://github.com/udaykashyap/fond-weather-8279",
+    netlify: "https://bewakoofclone.netlify.app/",
   },
 ];
