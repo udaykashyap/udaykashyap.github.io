@@ -52,26 +52,21 @@ export const Github = () => {
         borderRadius="5px"
         width={{ base: "100%", md: "70%" }}
       >
-        <Box
-          id="github-streak-stats"
-          padding={{ base: "0px", md: "30px" }}
-          width="100%"
-        >
+        <Box padding={{ base: "0px", md: "30px" }} width="100%">
           <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
             My <span style={{ color: "red" }}>Streak</span>
           </Text>
           <img
             id="github-streak-stats"
-            style={{ display: "block", margin: "auto" }}
-            src="https://streak-stats.demolab.com?user=udaykashyap&_border=true&theme=dark&hide_border=true&theme=react"
+            style={{
+              display: "block",
+              margin: "auto",
+            }}
+            src="https://github-readme-streak-stats.herokuapp.com?user=udaykashyap&theme=react&hide_border=true"
             alt="#"
           />
         </Box>
-        <Box
-          id="github-stats-card"
-          padding={{ base: "0px", md: "30px" }}
-          width="100%"
-        >
+        <Box padding={{ base: "0px", md: "30px" }} width="100%">
           <Text fontSize={{ base: "20px", md: "20px" }} fontWeight="bold">
             My <span style={{ color: "red" }}>Github</span> Stats
           </Text>
@@ -85,14 +80,18 @@ export const Github = () => {
       </Box>
 
       <Box
-        id="github-top-langs"
         padding={{ base: "0px", md: "30px" }}
         boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
         borderRadius="5px"
         width={{ base: "100%", md: "70%" }}
       >
-        <Text style={{ base: "0px", md: "20px" }} textAlign="center">
-          Top Languages
+        <Text
+          style={{ base: "0px", md: "20px" }}
+          textAlign="center"
+          fontSize={{ base: "20px", md: "20px" }}
+          fontWeight="bold"
+        >
+          Top <span style={{ color: "red" }}>Language</span>
         </Text>
         <img
           style={{ display: "block", margin: "auto" }}

@@ -74,7 +74,7 @@ export default function Navbar() {
             fontSize="30px"
           >
             <a href="home">
-              U<span style={{ color: "red" }}>DAY</span>
+              U<span style={{ color: "red" }}>DAY</span>.
             </a>
           </Text>
 

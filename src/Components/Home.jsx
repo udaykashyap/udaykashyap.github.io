@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <Box
       id="home"
-      className="nav-link home"
       padding={{ base: "0px", md: "5rem" }}
       border="0px solid red"
       marginTop={"62px"}
@@ -55,10 +54,10 @@ const Home = () => {
           </Text>
           <br />
         </Box>
-        <Box className="home-img">
+        <Box>
           <Image
             // borderRadius={"50%"}
-
+            className="home-img"
             _hover={{
               transition: "0.9s",
               transform: "scale(1.1)",

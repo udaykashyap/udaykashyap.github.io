@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Box
       id="about"
-      className="nav-link about"
+      className="about section"
       // marginTop={{ base: "20", md: "180px" }}
       padding={{ base: "10px", md: "5rem" }}
       border="0px solid green"
@@ -45,36 +45,18 @@ const About = () => {
           <Text
             id="user-detail-intro"
             fontSize={"24px"}
-            fontFamily={"cursive"}
+            fontFamily="inherit"
             fontWeight="300"
             textAlign={{ base: "center", md: "left" }}
           >
             Hello! My name is Uday Kumar Kashyap & I enjoy creating things that
             lives on internet. I'm a passionate Developer with strong
             administrative & communication skills, good attention to detail &
-            the ability to write efficent code.
+            the ability to write efficent code. HTML,CSS,JavaScript,REACT
           </Text>
         </Box>
       </Box>
-      {/* <Button
-        className="nav-link resume"
-        as={"a"}
-        // display={{ base: "none", md: "inline-flex" }}
-        fontSize={"sm"}
-        fontWeight={600}
-        color={"white"}
-        bg={"Red"}
-        href={"#"}
-        width="100px"
-        margin={"auto"}
-        _hover={{
-          bg: "transparent",
-          color: "red",
-          border: "1px solid red",
-        }}
-      >
-        Resume
-      </Button> */}
+
       <Flex
         justify={"center"}
         alignItems="center"

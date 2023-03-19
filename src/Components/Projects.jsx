@@ -11,7 +11,6 @@ const Projects = () => {
       // height={{ md: "3xl" }}
       border={"0px solid red"}
       id="projects"
-      className="nav-link projects"
     >
       <Box marginTop={{ base: "10%", md: "3%" }}>
         <Text fontSize={{ base: "30px", md: "30px" }} fontWeight="bold">

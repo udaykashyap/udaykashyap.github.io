@@ -9,22 +9,19 @@ import {
   Button,
   Image,
   useColorModeValue,
+  useToast,
 } from "@chakra-ui/react";
 
 import ContactImg from "../assets/Image/contact.f495edec.png";
+import PhoneModal from "./PhoneModal";
 
 const Contact = () => {
   return (
     // display={["inline", "inline", "inline"]}
-    <>
+    <Box id="contact">
       <Box
-        id="contact"
-        className="nav-link contact"
-        // marginTop={{ base: "20", md: "180px" }}
         padding={{ base: "1px", md: "1rem" }}
         border="0px solid red"
-        height="2xl"
-        // bg={useColorModeValue("white", "#0f1624")}
         color={useColorModeValue("gray.600", "gray.200")}
       >
         <Box marginTop={{ base: "10%", md: "3%" }}>
@@ -36,8 +33,6 @@ const Contact = () => {
         <Box
           display={["inline", "inline", "flex"]}
           gap={"70px"}
-          className="contact"
-          id="contact"
           w={["100%", "97%", "90%"]}
           fontSize={30}
           m={"auto"}
@@ -57,14 +52,25 @@ const Contact = () => {
               method="POST"
             >
               <Stack>
-                {/* <Flex
+                <Flex
                   justifyContent={"space-around"}
                   color={useColorModeValue("white", "gray.200")}
                 >
-                  <Button bg={"#0a66c2"}>LinkedIn</Button>
-                  <Button bg={"#ad201d"}>Gmail</Button>
-                  <Button bg={"#010409"}>Github</Button>
-                </Flex> */}
+                  <Button id="contact-linkedin" bg={"#0a66c2"}>
+                    <a href="https://www.linkedin.com/in/udaykashyap/">
+                      LinkedIn
+                    </a>
+                  </Button>
+                  <Button id="contact-email" bg={"#ad201d"} padding="0">
+                    <TostGmail />
+                  </Button>
+                  <Button id="contact-github" bg={"#010409"}>
+                    <a href="https://github.com/udaykashyap">Github</a>
+                  </Button>
+                  <Button id="contact-phone" bg={"#010409"} padding="0">
+                    <PhoneModal />
+                  </Button>
+                </Flex>
                 <Flex>
                   <Input
                     type="text"
@@ -144,8 +150,27 @@ const Contact = () => {
       >
         Desgined & Build By Uday Kumar Kashyap, 2023
       </Text>
-    </>
+    </Box>
   );
 };
 
 export default Contact;
+
+function TostGmail() {
+  const toast = useToast();
+  return (
+    <Button
+      onClick={() =>
+        toast({
+          title: "My Gmail.",
+          description: "udaykashyap.hjp@gmail.com",
+          status: "success",
+          duration: 10000,
+          isClosable: true,
+        })
+      }
+    >
+      Gmail
+    </Button>
+  );
+}
