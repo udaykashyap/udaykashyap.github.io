@@ -25,10 +25,17 @@ import {
 } from "@chakra-ui/icons";
 
 import Uday from "../assets/fw21_0870-Uday-Kashyap-Resume.pdf";
+import { useEffect } from "react";
 
 export default function Navbar() {
-  const { colorMode, toggleColorMode } = useColorMode();
+  // const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onToggle } = useDisclosure();
+  const { colorMode, toggleColorMode } = useColorMode();
+  useEffect(() => {
+    if (colorMode === "light") {
+      toggleColorMode();
+    }
+  }, []);
 
   return (
     <Box
