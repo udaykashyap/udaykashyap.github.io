@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3aaec935.css",
-    "main.js": "/static/js/main.3c812228.js",
+    "main.js": "/static/js/main.bff28512.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fw21_0870-Uday-Kashyap-Resume.pdf": "/static/media/fw21_0870-Uday-Kashyap-Resume.b3dc5d00fbf499d16451.pdf",
     "static/media/contact.f495edec.png": "/static/media/contact.f495edec.57446aee3d2d6821d3c3.png",
     "index.html": "/index.html",
     "main.3aaec935.css.map": "/static/css/main.3aaec935.css.map",
-    "main.3c812228.js.map": "/static/js/main.3c812228.js.map",
+    "main.bff28512.js.map": "/static/js/main.bff28512.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3aaec935.css",
-    "static/js/main.3c812228.js"
+    "static/js/main.bff28512.js"
   ]
 }
