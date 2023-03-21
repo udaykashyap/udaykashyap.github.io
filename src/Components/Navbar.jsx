@@ -76,8 +76,9 @@ export default function Navbar() {
           <Text
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             fontFamily="sans-serif"
+            // fontStyle={"italic"}
             color={useColorModeValue("gray.800", "white")}
-            fontWeight="700"
+            fontWeight="900"
             fontSize="30px"
           >
             <a href="home">
@@ -98,6 +99,7 @@ export default function Navbar() {
         >
           <Button
             className="nav-link resume"
+            id="resume-button-1"
             as={"a"}
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
@@ -112,6 +114,7 @@ export default function Navbar() {
             }}
           >
             <Link
+              id="resume-link-1"
               onClick={() =>
                 window.open(
                   "https://drive.google.com/file/d/1OQIAxVifyP4S7JyfuknbB5UpDIB-t3yq/view?usp=share_link"
@@ -139,11 +142,9 @@ export default function Navbar() {
 
       <Collapse in={isOpen} animateOpacity>
         <MobileNav />
-        <Button display={{ base: "flex", md: "none" }}>
+        {/* <Button display={{ base: "flex", md: "none" }}>
           {" "}
           <Link
-            className="nav-link resume"
-            id="resume-button-1"
             onClick={() =>
               window.open(
                 "https://drive.google.com/file/d/1OQIAxVifyP4S7JyfuknbB5UpDIB-t3yq/view?usp=share_link"
@@ -155,7 +156,7 @@ export default function Navbar() {
           >
             Resume
           </Link>
-        </Button>
+        </Button> */}
       </Collapse>
     </Box>
   );

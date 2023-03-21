@@ -25,7 +25,7 @@ export const ToolsData = [
   },
   {
     icon: "https://code.visualstudio.com/assets/images/code-stable.png",
-    name: "Visual Studio Code Editor",
+    name: "VS Code",
   },
   {
     icon: "https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png",

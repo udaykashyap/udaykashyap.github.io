@@ -2,6 +2,7 @@ import { Box, Button, Flex, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
+import Uday from "../assets/fw21_0870-Uday-Kashyap-Resume.pdf";
 
 const About = () => {
   return (
@@ -72,7 +73,7 @@ const About = () => {
       >
         <Flex>
           <Button
-            // id="resume-link-2"
+            // className="nav-link resume"
             id="resume-button-2"
             bg={"#d50032"}
             // gap={4}
@@ -81,13 +82,18 @@ const About = () => {
             margin={"auto"}
           >
             <Link
-              href="https://drive.google.com/uc?export=download&id=1OQIAxVifyP4S7JyfuknbB5UpDIB-t3yq"
-              target="_blank"
-              rel="noreferrer"
-              download="Uday_Resume"
+              id="resume-link-2"
               display="flex"
               justifyContent={"space-between"}
               gap={"10px"}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1OQIAxVifyP4S7JyfuknbB5UpDIB-t3yq/view?usp=share_link"
+                )
+              }
+              href={Uday}
+              target="_blank"
+              download
             >
               <FiDownload />
               <span>Resume</span>
