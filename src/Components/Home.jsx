@@ -61,7 +61,6 @@ const Home = () => {
             _hover={{
               transition: "0.9s",
               transform: "scale(1.1)",
-              // width: "150%",
             }}
             src="https://avatars.githubusercontent.com/u/112899880?v=4"
             alt="#"
