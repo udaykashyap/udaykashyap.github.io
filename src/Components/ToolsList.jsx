@@ -7,10 +7,11 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import SkillCard from "./SkillCard";
+import git from "./logo/git.png";
 
 export const ToolsData = [
   {
-    icon: "https://alih6051.github.io/static/media/git.c08353563539c6459b353f29d8dd7bf2.svg",
+    icon: git,
     name: "Git",
     category: "tools",
   },

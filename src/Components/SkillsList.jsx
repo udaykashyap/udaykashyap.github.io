@@ -9,6 +9,14 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import SkillCard from "./SkillCard";
+import CSS from "./logo/CSS.png";
+import MaterialUi from "./logo/MaterialUi.png";
+import Node from "./logo/Node.js.png";
+import Reactt from "./logo/React.png";
+import Reduxx from "./logo/Redux.png";
+import Mongoose from "./logo/mongoose.png";
+import Express from "./logo/Express.png";
+import git from "./logo/git.png";
 
 export const skillsData = [
   {
@@ -22,7 +30,7 @@ export const skillsData = [
     category: "frontend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
+    icon: CSS,
     name: "CSS",
     category: "frontend",
   },
@@ -37,7 +45,7 @@ export const skillsData = [
     category: "frontend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    icon: Reactt,
     name: "React",
     category: "frontend",
   },
@@ -47,7 +55,7 @@ export const skillsData = [
   //   category: "frontend",
   // },
   {
-    icon: "https://alih6051.github.io/static/media/redux.7fe607aacc31f6e6199e70f16aae407e.svg",
+    icon: Reduxx,
     name: "Redux",
     category: "frontend",
   },
@@ -57,17 +65,17 @@ export const skillsData = [
     category: "frontend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/mui.87264df237ee700ba78bb58ff701a6d3.svg",
+    icon: MaterialUi,
     name: "Material UI",
     category: "frontend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/node.10c9e2aa0ca7edf36fceae25fec038a1.svg",
+    icon: Node,
     name: "Node JS",
     category: "backend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/express.4925c0127df8857c18b38329795ce88f.svg",
+    icon: Express,
     name: "Express",
     category: "backend",
   },
@@ -77,12 +85,12 @@ export const skillsData = [
     category: "backend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/mongoose.51275a001caf5e6e30d4.png",
+    icon: "https://avatars.githubusercontent.com/u/7552965?s=200&v=4",
     name: "Mongoose",
     category: "backend",
   },
   {
-    icon: "https://alih6051.github.io/static/media/git.c08353563539c6459b353f29d8dd7bf2.svg",
+    icon: git,
     name: "Git",
     category: "tools",
   },
