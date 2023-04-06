@@ -49,7 +49,8 @@ const ToolsList = () => {
               templateColumns={{
                 base: "repeat(2, 1fr)",
                 sm: "repeat(2, 1fr)",
-                md: "repeat(6, 1fr)",
+                md: "repeat(3, 1fr)",
+                lg: "repeat(6,1fr)",
               }}
               //   gap={5}
             >

@@ -18,7 +18,7 @@ const Projects = () => {
         </Text>
       </Box>
       <Box
-        display={{ md: "grid" }}
+        display={{ lg: "grid" }}
         gridTemplateColumns={"repeat(2,1fr)"}
         gridTemplateRows={"repeat(2,1fr)"}
       >

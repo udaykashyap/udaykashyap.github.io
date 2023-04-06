@@ -9,7 +9,7 @@ const Home = () => {
       padding={{ base: "0px", md: "5rem" }}
       border="0px solid red"
       marginTop={"62px"}
-      height="3xl"
+      height={{ base: "3xl", md: "auto", lg: "3xl" }}
       bg={useColorModeValue("#edf2f7", "#0f1624")}
       // paddingTop="10rem"
     >
@@ -23,23 +23,26 @@ const Home = () => {
         <Box
           // border={"1px solid red"}
           //   height="400px"
-          width={{ base: "100%", md: "60%" }}
+          width={{ base: "100%", md: "100%", lg: "60%" }}
           display="grid"
           alignContent="center"
           height={{ base: "250px", md: "auto" }}
         >
-          <Text fontSize={{ sm: "2xl", md: "3xl" }} fontWeight={"bold"}>
+          <Text
+            fontSize={{ sm: "2xl", md: "xl", lg: "3xl" }}
+            fontWeight={"bold"}
+          >
             Hello there, I'm
           </Text>
           <Text
             id="user-detail-name"
             color={"red"}
-            fontSize={{ base: "3xl", sm: "4xl", md: "5xl" }}
+            fontSize={{ base: "3xl", sm: "4xl", md: "xl", lg: "5xl" }}
             fontWeight={"bold"}
           >
             Uday Kumar Kashyap
           </Text>
-          <Text fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}>
+          <Text fontSize={{ base: "2xl", sm: "4xl", md: "xl", lg: "5xl" }}>
             <Typewriter
               options={{
                 strings: [

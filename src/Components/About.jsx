@@ -19,13 +19,13 @@ const About = () => {
         </Text>
       </Box>
       <Box
-        display={{ md: "flex" }}
-        padding={{ md: "30px" }}
+        display={{ lg: "flex" }}
+        padding={{ lg: "30px" }}
         alignItems="center"
         border="0px solid green"
         marginTop={{ base: "20" }}
       >
-        <Box width={{ base: "100%", md: "50%" }} border="0px solid red">
+        <Box width={{ base: "100%", lg: "50%" }} border="0px solid red">
           <Image
             margin={"auto"}
             width={"60%"}
@@ -36,7 +36,7 @@ const About = () => {
           />
         </Box>
         <Box
-          width={{ base: "90%", md: "40%" }}
+          width={{ base: "90%", md: "90%", lg: "40%" }}
           border="0px solid red"
           padding={{ base: "10px" }}
           margin="0 auto"
@@ -48,7 +48,7 @@ const About = () => {
             fontSize={"24px"}
             fontFamily="inherit"
             fontWeight="300"
-            textAlign={{ base: "center", md: "left" }}
+            textAlign={{ base: "center", lg: "left" }}
           >
             Hello! My name is Uday Kumar Kashyap & I enjoy creating things that
             lives on internet. I'm a passionate Developer with strong

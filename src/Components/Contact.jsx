@@ -54,6 +54,7 @@ const Contact = () => {
               <Stack>
                 <Flex
                   justifyContent={"space-around"}
+                  gap={{ base: "2", md: "2" }}
                   color={useColorModeValue("white", "gray.200")}
                 >
                   <Button id="contact-linkedin" bg={"#0a66c2"}>
