@@ -15,6 +15,9 @@ import {
 import ContactImg from "../assets/Image/contact.f495edec.png";
 import PhoneModal from "./PhoneModal";
 
+
+// Contact section start from here
+
 const Contact = () => {
   return (
     // display={["inline", "inline", "inline"]}
@@ -37,7 +40,7 @@ const Contact = () => {
           fontSize={30}
           m={"auto"}
           mt={"5%"}
-          border={"0px solid red"}
+          border={"0px solid red"}                                    
           padding={{ base: "5px", md: "20px" }}
         >
           <Box width={{ base: "100%", md: "50%" }}>
