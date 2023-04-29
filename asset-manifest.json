@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.19b2cf4d.css",
-    "main.js": "/static/js/main.46375d19.js",
+    "main.js": "/static/js/main.d679d0da.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/MaterialUi.png": "/static/media/MaterialUi.5955eca0663eaeb9b8d6.png",
-    "static/media/Uday-Kashyap-Resume.pdf": "/static/media/Uday-Kashyap-Resume.1c878c1102f5738ce635.pdf",
+    "static/media/Uday-Kashyap-Resume.pdf": "/static/media/Uday-Kashyap-Resume.7540c1269d45c1483d7d.pdf",
     "static/media/mongoose.png": "/static/media/mongoose.998152e4bc5fdd366c2c.png",
     "static/media/Redux.png": "/static/media/Redux.5de70b7bc0d2556a0958.png",
     "static/media/CSS.png": "/static/media/CSS.9f33c557b92e4e2e1cc8.png",
@@ -14,11 +14,11 @@
     "static/media/Node.js.png": "/static/media/Node.js.478c590a266bed215577.png",
     "index.html": "/index.html",
     "main.19b2cf4d.css.map": "/static/css/main.19b2cf4d.css.map",
-    "main.46375d19.js.map": "/static/js/main.46375d19.js.map",
+    "main.d679d0da.js.map": "/static/js/main.d679d0da.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19b2cf4d.css",
-    "static/js/main.46375d19.js"
+    "static/js/main.d679d0da.js"
   ]
 }
