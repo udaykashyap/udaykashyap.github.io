@@ -24,7 +24,7 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-import Uday from "../assets/fw21_0870-Uday-Kashyap-Resume.pdf";
+import Uday from "../assets/Uday-Kashyap-Resume.pdf";
 import { useEffect } from "react";
 
 export default function Navbar() {

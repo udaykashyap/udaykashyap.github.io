@@ -2,7 +2,7 @@ import { Box, Button, Flex, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { FiDownload } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
-import Uday from "../assets/fw21_0870-Uday-Kashyap-Resume.pdf";
+import Uday from "../assets/Uday-Kashyap-Resume.pdf";
 
 const About = () => {
   return (

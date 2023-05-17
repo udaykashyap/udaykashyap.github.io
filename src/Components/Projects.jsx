@@ -61,12 +61,12 @@ const ProjectData = [
   },
   {
     image:
-      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Hotstar.png?raw=true",
-    heading: "Hotstar",
-    desc: "This is Hotstar Clone which helps you to search your desired movie",
-    techs: "HTML | CSS | JavaScript",
-    github: "https://github.com/udaykashyap/hotstarClone",
-    netlify: "https://clonehotstar.netlify.app",
+      "https://github.com/udaykashyap/udaykashyap.github.io/blob/master/src/assets/Image/Game.png?raw=true",
+    heading: "Riddle of the Ruins",
+    desc: "This is Object finding game where you have to find all hidden objects.",
+    techs: "TypeScript | REACT | REDUX | Mongoose | Tailwind",
+    github: "https://github.com/udaykashyap/Game-Geniuses",
+    netlify: "https://game-geniuses.vercel.app/",
   },
   {
     image:
